@@ -1,3 +1,7 @@
 # Default ignored files
 /.idea/
 /learn-spring-cloud-alibaba-dependencies/learn-spring-cloud-alibaba-dependencies.iml
+/learn-spring-cloud-alibaba-provider/learn-spring-cloud-alibaba-provider.iml
+/learn-spring-cloud-alibaba-provider/target/
+/learn-spring-cloud-alibaba-consumer/target/
+/learn-spring-cloud-alibaba-consumer/learn-spring-cloud-alibaba-consumer.iml
