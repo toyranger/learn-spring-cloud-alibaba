@@ -7,6 +7,13 @@
 #      discovery:
 #        #        如果使用docker-compose部署,这里就是docker容器地址
 #        server-addr: 127.0.0.1:8848
+#    sentinel:
+#      transport:
+#        dashboard: 127.0.0.1:8700
+#
+#feign:
+#  sentinel:
+#    enabled: true
 #
 #server:
 #  port: 8899
