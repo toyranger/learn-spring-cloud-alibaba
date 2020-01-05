@@ -16,7 +16,7 @@ public class TestOAuth2AuthenAndAuthorApplication {
 
   @Test
   public void test() {
-    System.out.println(passwordEncoder.encode("secret"));
+    System.out.println(passwordEncoder.encode("admin"));
   }
 
   @Test
