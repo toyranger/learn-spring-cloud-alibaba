@@ -1,11 +1,11 @@
-package com.chins.spring.cloud.alibaba.dubbo.provider;
+package com.chins.spring.cloud.alibaba.dubbo.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DubboProviderApplication {
+public class DubboConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DubboProviderApplication.class, args);
+        SpringApplication.run(DubboConsumerApplication.class, args);
     }
 }

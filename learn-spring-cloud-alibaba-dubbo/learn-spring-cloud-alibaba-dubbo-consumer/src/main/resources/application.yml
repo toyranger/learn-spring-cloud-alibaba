@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: dubbo-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+dubbo:
+  scan:
+    base-packages: com.chins.spring.cloud.alibaba.dubbo.consumer.controller
+  protocol:
+    name: dubbo
+    port: -1
+    serialization: kryo
+  registry:
+    address: nacos://127.0.0.1:8848
+  provider:
+    loadbalance: roundrobin # 轮询，默认随机
+
+server:
+  port: 8080

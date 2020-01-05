@@ -9,11 +9,25 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <dubbo-serialization-kryo.version>2.7.5</dubbo-serialization-kryo.version>
+    </properties>
+
     <artifactId>learn-spring-cloud-alibaba-dubbo</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>learn-spring-cloud-alibaba-dubbo-provider-api</module>
         <module>learn-spring-cloud-alibaba-dubbo-provider-service</module>
+        <module>learn-spring-cloud-alibaba-dubbo-consumer</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-serialization-kryo</artifactId>
+                <version>${dubbo-serialization-kryo.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
