@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: dubbo-provider
+  main:
+    allow-bean-definition-overriding=true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+dubbo:
+  scan:
+    base-packages: com.chins.spring.cloud.alibaba.dubbo.provider.service
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    protocol: nacos
+    address: 127.0.0.1
+    port: 8848

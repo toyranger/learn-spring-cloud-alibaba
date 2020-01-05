@@ -20,6 +20,7 @@
         <module>learn-spring-cloud-alibaba-dependencies</module>
         <module>learn-spring-cloud-alibaba-provider</module>
         <module>learn-spring-cloud-alibaba-consumer</module>
+        <module>learn-spring-cloud-alibaba-dubbo</module>
     </modules>
 
     <properties>

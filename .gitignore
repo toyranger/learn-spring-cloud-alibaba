@@ -5,3 +5,8 @@
 /learn-spring-cloud-alibaba-provider/target/
 /learn-spring-cloud-alibaba-consumer/target/
 /learn-spring-cloud-alibaba-consumer/learn-spring-cloud-alibaba-consumer.iml
+/learn-spring-cloud-alibaba-dubbo/learn-spring-cloud-alibaba-dubbo.iml
+/learn-spring-cloud-alibaba-dubbo/learn-spring-cloud-alibaba-dubbo-provider-api/learn-spring-cloud-alibaba-dubbo-provider-api.iml
+/learn-spring-cloud-alibaba-dubbo/learn-spring-cloud-alibaba-dubbo-provider-service/learn-spring-cloud-alibaba-dubbo-provider-service.iml
+/learn-spring-cloud-alibaba-dubbo/learn-spring-cloud-alibaba-dubbo-provider-service/target/
+/learn-spring-cloud-alibaba-dubbo/learn-spring-cloud-alibaba-dubbo-provider-api/target/
