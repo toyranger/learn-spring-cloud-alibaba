@@ -11,5 +11,8 @@
 
     <artifactId>learn-spring-cloud-alibaba-oauth2</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>learn-spring-cloud-alibaba-oauth2-server</module>
+    </modules>
 
 </project>
