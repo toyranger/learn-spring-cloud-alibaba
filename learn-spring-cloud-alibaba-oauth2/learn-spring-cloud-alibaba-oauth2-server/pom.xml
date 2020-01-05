@@ -39,6 +39,19 @@
             <artifactId>mysql-connector-java</artifactId>
             <groupId>mysql</groupId>
         </dependency>
+        <dependency>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <groupId>com.baomidou</groupId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <artifactId>lombok</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <scope>provided</scope>
+            <version>1.18.10</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>

@@ -19,8 +19,4 @@ public class TestOAuth2AuthenAndAuthorApplication {
     System.out.println(passwordEncoder.encode("admin"));
   }
 
-  @Test
-  public void testDatasource() {
-
-  }
 }
