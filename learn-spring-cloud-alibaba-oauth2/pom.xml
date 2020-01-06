@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>learn-spring-cloud-alibaba-oauth2-server</module>
+      <module>learn-spring-cloud-alibaba-oauth2-resources</module>
     </modules>
 
 </project>
