@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DubboHelloController {
 
-    @Reference(version = "1.0.0")
-    private HelloService helloService;
+  @Reference(version = "1.0.0")
+  private HelloService helloService;
 
-    @GetMapping("/hello/dubbo/{name}")
-    public String hello(@PathVariable String name) {
+  @GetMapping("/hello/dubbo/{name}")
+  public String hello(@PathVariable String name) {
 
-        return helloService.hello(name);
-    }
+    return helloService.hello(name);
+  }
 }

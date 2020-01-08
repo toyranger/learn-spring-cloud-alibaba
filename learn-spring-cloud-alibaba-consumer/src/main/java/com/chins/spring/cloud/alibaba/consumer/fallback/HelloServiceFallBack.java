@@ -5,8 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class HelloServiceFallBack implements HelloService {
-    @Override
-    public String hello(String name) {
-        return "你的网络有问题";
-    }
+
+  @Override
+  public String hello(String name) {
+    return "你的网络有问题";
+  }
 }

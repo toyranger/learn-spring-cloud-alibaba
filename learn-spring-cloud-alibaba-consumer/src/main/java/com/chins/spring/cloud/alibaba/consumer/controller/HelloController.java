@@ -12,19 +12,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Autowired
-    private HelloService helloService;
+  @Autowired
+  private HelloService helloService;
 
-    @Value("${user.name}")
-    private String username;
+  @Value("${user.name}")
+  private String username;
 
-    @GetMapping("/feign/hello/{name}")
-    public String hello(@PathVariable String name) {
-        return helloService.hello(name);
-    }
+  @GetMapping("/feign/hello/{name}")
+  public String hello(@PathVariable String name) {
+    return helloService.hello(name);
+  }
 
-    @GetMapping("/feign/echo")
-    public String echo() {
-        return username;
-    }
+  @GetMapping("/feign/echo")
+  public String echo() {
+    return username;
+  }
 }
